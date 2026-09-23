@@ -13,8 +13,8 @@ spec:
 
       containers:
         - name: pytest
-          image: wifi-pytest-advanced:49
-          imagePullPolicy: IfNotPresent
+          image: vengateshbabu1605/wifi-pytest-advanced:48
+          imagePullPolicy: Always
 
           command: ["python"]
           args:
